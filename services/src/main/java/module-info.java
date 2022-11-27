@@ -1,11 +1,5 @@
+module example.aggregate.services {
+    requires transitive example.aggregate.api;
 
-import org.creekservice.api.platform.metadata.ComponentDescriptor;
-
-module example.mod.services {
-    requires transitive example.mod.api;
-
-    exports org.acme.example.services;
-
-    provides ComponentDescriptor with // init:remove
-            org.acme.example.services.ExampleServiceDescriptor; // init:remove
+    exports io.github.creek.user.example.aggregate.services;
 }

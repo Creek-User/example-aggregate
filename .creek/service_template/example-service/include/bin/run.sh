@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #
 # Copyright 2022 Creek Contributors (https://github.com/creek-service)
 #
@@ -14,3 +16,8 @@
 # limitations under the License.
 #
 
+java \
+ -Xms64m -Xmx256m \
+ -Dlog4j.configurationFile=/log/log4j2.xml \
+ --module-path "/opt/creek/service/lib" \
+ --module example.aggregate.service/io.github.creek.user.example.aggregate.service.ServiceMain

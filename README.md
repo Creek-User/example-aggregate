@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Coverage Status](https://coveralls.io/repos/github/creek-service/aggregate-template/badge.svg?branch=main)](https://coveralls.io/github/creek-service/aggregate-template?branch=main)
-[![build](https://github.com/creek-service/aggregate-template/actions/workflows/build.yml/badge.svg)](https://github.com/creek-service/aggregate-template/actions/workflows/build.yml)
-[![CodeQL](https://github.com/creek-service/aggregate-template/actions/workflows/codeql.yml/badge.svg)](https://github.com/creek-service/aggregate-template/actions/workflows/codeql.yml)
+[![Coverage Status](https://coveralls.io/repos/github/Creek-User/example-aggregate/badge.svg?branch=main)](https://coveralls.io/github/Creek-User/example-aggregate?branch=main)
+[![build](https://github.com/Creek-User/example-aggregate/actions/workflows/build.yml/badge.svg)](https://github.com/Creek-User/example-aggregate/actions/workflows/build.yml)
+[![CodeQL](https://github.com/Creek-User/example-aggregate/actions/workflows/codeql.yml/badge.svg)](https://github.com/Creek-User/example-aggregate/actions/workflows/codeql.yml)
 
 # Creek aggregate repo starter
 
@@ -108,5 +108,5 @@ Note: this file is deleted by the `init.sh` script.
 [kafkaSteams]: https://kafka.apache.org/documentation/streams/
 [codeQL]: https://codeql.github.com/
 [ghPackages]: https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages
-[useThisTemplate]: https://github.com/creek-service/aggregate-template/generate
+[useThisTemplate]: https://github.com/Creek-User/example-aggregate/generate
 [ghSecret]: https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-encrypted-secrets-for-your-repository-and-organization-for-github-codespaces
